@@ -1,0 +1,16 @@
+Package: BBhumanBrain
+Type: Package
+Title: This package apply the full analysis detailed in Joel et al. (2020) 
+Version: 0.1.0
+Authors@R: person("Nitay", "Alon", email = "nitayalon@tauex.tau.ac.il",
+                  role = c("aut", "cre"))
+Description: See Joel et al. (2020) for details
+License: 
+Encoding: UTF-8
+LazyData: true
+Imports:
+  dplyr,
+  magrittr,
+  effsize,
+  mixtools,
+  DescTools
